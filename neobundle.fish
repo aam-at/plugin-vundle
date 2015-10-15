@@ -5,13 +5,13 @@
 #   Runs NeoBundleInstall to install missing plugins
 #
 # USAGE
-#   $ vundle
+#   $ neobundle
 #
 
 function init -a path --on-event init_neobundle
   if [ ! -e ~/.vim/bundle/neobundle.vim/.git ]
     echo \n\t "neobundle.vim is not installed."
-    echo \n\t "Read about vim configuration for vundle at https://github.com/Shougo/neobundle.vim" \n
+    echo \n\t "Read about vim configuration for neobundle at https://github.com/Shougo/neobundle.vim" \n
   end
 end
 
