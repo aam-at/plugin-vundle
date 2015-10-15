@@ -1,10 +1,10 @@
 # SYNOPSIS
-#   Runs PluginClean! to remove unused plugins
+#   Runs NeoBundleClean! to remove unused plugins
 #
 # USAGE
-#   $ vundle-clean 
+#   $ neobundle-clean 
 #
 
-function vundle-clean  -d "Vundle Clean"
-  vim -c "execute \"PluginClean!\" | q | q"
+function neobundle-clean  -d "NeoBundle Clean"
+  vim -c "execute \"NeoBundleClean!\" | q | q"
 end
